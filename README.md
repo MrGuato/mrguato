@@ -1,4 +1,4 @@
-<h2>Hi, I'm Jonathan! <br/><a href="https://www.linkedin.com/in/jonathan-deleon-81302a62/">System Administrator</a>, <a href="https://tryhackme.com/p/MrGuato">Jr. Cybersecurity Analyst</a></h2>
+<h2>Hi, I'm Jonathan! <br/><a href="https://www.linkedin.com/in/jonathan-deleon-81302a62/">System Administrator</a>, <a href="https://tryhackme.com/p/MrGuato">Jr. Cybersecurity Analyst</a>, <a href="https://www.instagram.com/deleontechnology/">PC Builder</a> </h2>
   
 <h2>📵 Cybersecurity Projects:</h2>
 
