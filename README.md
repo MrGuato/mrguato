@@ -7,6 +7,9 @@
 
 <h2> 📜 Certifications </h2>
   
+- [CompTIA Security +](https://www.credly.com/badges/cb38604d-6713-4b30-adab-60e5bc8a2cec)
+- [CompTIA Secure Infrastructure Specialist](https://www.credly.com/badges/a21da2ed-d38b-49f7-9d60-ab7323fbfe70)
+- [ISC2-CC](https://www.credly.com/badges/1c7bebf0-e427-4597-a59b-57426beb1508)
 - [CompTIA Network +](https://www.credly.com/badges/d62803e8-ebab-46dc-8819-aed19adc4e36)
 - [CompTIA IT Operations Specialist](https://www.credly.com/badges/e7ae1eed-4a37-4a9d-8f63-51aa9719c9a9)
 - [CompTIA A+ ](https://www.credly.com/badges/9ae7b7a2-9b01-4444-ba16-c2b1a802d53d)
