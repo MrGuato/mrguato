@@ -3,7 +3,9 @@
 <h2>📵 Cybersecurity Projects:</h2>
 
 - <b>Cyber Home Lab</b>
-  - [Practicing to detect cyber attacks in a homelab environment]
+  - [Setup of a Virtual AD company network for security testing and remediation. Use of VMWare, Windows 10, Windows Server 2019, Splunk, Security Onion, Pfsense, Ubuntu Server and Kali Linux.]
+- <b>Nessus Home Lab</b>
+  - [Setup and use of a Raspberry Pi 4 using Nessus Essentials to perform scans in home network to identify and remediate vulnerabilities.]
 
 <h2> 📜 Certifications </h2>
   
