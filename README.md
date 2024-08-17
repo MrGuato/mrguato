@@ -1,11 +1,11 @@
-<h2>Hi, I'm Jonathan! <br/><a href="https://www.linkedin.com/in/jonathan-deleon-81302a62/">System Administrator</a>, <a href="https://tryhackme.com/p/MrGuato">Jr. Cybersecurity Analyst</a>, <a href="https://www.instagram.com/deleontechnology/">PC Builder</a> </h2>
+<h2>Hi, I'm Jonathan DeLeon, CCSP®<br/><a href="www.linkedin.com/in/jonathan-deleon-ccsp®-81302a62"> I'm a Information Security Analyst</a><br> I protect information, cloud systems and fight evil! <br></h2>
   
 <h2>📵 Cybersecurity Projects:</h2>
 
-- <b>Cyber Home Lab</b>
-  - [Setup of a Virtual AD company network for security testing and remediation. Use of VMWare, Windows 10, Windows Server 2019, Splunk, Security Onion, Pfsense, Ubuntu Server and Kali Linux.]
-- <b>Nessus Home Lab</b>
-  - [Setup and use of a Raspberry Pi 4 using Nessus Essentials to perform scans in home network to identify and remediate vulnerabilities.]
+- <b>Combining SOAR and EDR Solution for Automation</b>
+  - [In this project, I implemented a detection mechanism using Lima Charlie to identify a specific hack tool. When the system detects this tool, it triggers actions via Tines, sending notifications to Slack and email. These notifications include crucial details such as timestamp, computer name, source IP, process details, command line invocation, file paths, sensor ID, and optionally, a link to detailed detection information. Additionally, Tines prompts the user with an option to isolate the affected machine. If isolation is confirmed, Lima Charlie automates the isolation process and notifies Slack with a confirmation message. If isolation is declined, a message is sent advising further investigation.]
+- <b>Utilize Custom Analytics with Query in Microsoft Sentinel to monitor for malicious login activities</b>
+  - [In this project, the aim is to strengthen security measures by effectively consolidating and analyzing log data. By setting up a robust environment using Microsoft Azure and Microsoft Sentinel, logs from Windows Events will be systematically ingested into the SIEM. A custom analytics query will be formulated to identify and monitor potential Brute Force Login attempts, enhancing the detection and response to possible security threats.]
 
 <h2> 📜 Certifications </h2>
   
