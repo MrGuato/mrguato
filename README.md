@@ -1,4 +1,4 @@
-<h2>Hi, I'm Jonathan DeLeon, CCSP®<br/><a href="www.linkedin.com/in/jonathan-deleon-ccsp®-81302a62"> I'm a Information Security Analyst</a><br> I protect information, cloud systems and fight evil! <br></h2>
+<h2>Hi, I'm Jonathan DeLeon, CCSP®<br/><a href="www.linkedin.com/in/jonathan-deleon-ccsp®-81302a62"> I'm a Cybersecurity Engineer </a><br> I protect information, cloud systems and fight evil! <br></h2>
   
 <h2>📵 Cybersecurity Projects:</h2>
 
