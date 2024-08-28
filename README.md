@@ -1,5 +1,10 @@
 # Hello, I'm Jonathan
-<a href="https://linkedin.com"><img src="www.linkedin.com/in/jonathan-deleon-ccsp-81302a62" /></a>
+<a href="https://linkedin.com/in/jonathan-deleon-ccsp-81302a62">
+  <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width:30px;height:30px;"/></a> 
+<a href="https://www.credly.com/users/jonathan-deleon.bfdd720a">
+  <img src="https://info.credly.com/hubfs/Credly_images_2022/Logo.svg" alt="Credly" style="width:35px;height:35px;"/></a>
+<a href="https://hashnode.com/@mrcyberleon">
+  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png" alt="Hashnode" style="width:30px;height:30px;"/></a>
 
 I specialize in fortifying digital landscapes with robust security controls and custom detection systems, leveraging threat intelligence to stay ahead of sophisticated cyber adversaries.
 
@@ -14,8 +19,11 @@ To leverage my well-rounded IT background and expertise in cybersecurity to fort
 | SIEM Implementation and Log Analysis          | <a href="https://mrcyberleon.hashnode.dev/utilize-custom-analytics-with-query-in-microsoft-sentinel-to-monitor-for-malicious-login-activities"> Detection Lab</a>|
 | EDR Security Automation with Tines SOAR | <a href="https://mrcyberleon.hashnode.dev/soar-edr-project-using-lima-charlie-tines"> SOC Automation Lab</a>|
 
+## Online Labs
+<img src="https://cyberdefenders-storage.s3.me-central-1.amazonaws.com/profile-badges/MrGuato.png" width="300" />
+
+
 ## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
 
 ### Network & IDS/IPS
 <div>
@@ -44,7 +52,6 @@ To leverage my well-rounded IT background and expertise in cybersecurity to fort
 </div>
 
 ## Certifications
-[Provide certifications that you have obtained. Use ChatGPT to help create the link - Remove this afterwards]]
 <div>
 <img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
 <img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
