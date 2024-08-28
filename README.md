@@ -1,23 +1,57 @@
-<h2>Hi, I'm Jonathan DeLeon, CCSP®<br/><a href="www.linkedin.com/in/jonathan-deleon-ccsp®-81302a62"> I'm a Cybersecurity Engineer </a><br> I protect information, cloud systems and fight evil! <br></h2>
-  
-<h2>📵 Cybersecurity Projects:</h2>
+# Hello, I'm Jonathan
+<a href="https://linkedin.com"><img src="www.linkedin.com/in/jonathan-deleon-ccsp-81302a62" /></a>
 
-- <b>Combining SOAR and EDR Solution for Automation</b>
-  - [In this project, I implemented a detection mechanism using Lima Charlie to identify a specific hack tool. When the system detects this tool, it triggers actions via Tines, sending notifications to Slack and email. These notifications include crucial details such as timestamp, computer name, source IP, process details, command line invocation, file paths, sensor ID, and optionally, a link to detailed detection information. Additionally, Tines prompts the user with an option to isolate the affected machine. If isolation is confirmed, Lima Charlie automates the isolation process and notifies Slack with a confirmation message. If isolation is declined, a message is sent advising further investigation.]
-- <b>Utilize Custom Analytics with Query in Microsoft Sentinel to monitor for malicious login activities</b>
-  - [In this project, the aim is to strengthen security measures by effectively consolidating and analyzing log data. By setting up a robust environment using Microsoft Azure and Microsoft Sentinel, logs from Windows Events will be systematically ingested into the SIEM. A custom analytics query will be formulated to identify and monitor potential Brute Force Login attempts, enhancing the detection and response to possible security threats.]
+I specialize in fortifying digital landscapes with robust security controls and custom detection systems, leveraging threat intelligence to stay ahead of sophisticated cyber adversaries.
 
-<h2> 📜 Certifications </h2>
-  
-- [CompTIA Security +](https://www.credly.com/badges/cb38604d-6713-4b30-adab-60e5bc8a2cec)
-- [CompTIA Secure Infrastructure Specialist](https://www.credly.com/badges/a21da2ed-d38b-49f7-9d60-ab7323fbfe70)
-- [ISC2-CC](https://www.credly.com/badges/1c7bebf0-e427-4597-a59b-57426beb1508)
-- [CompTIA Network +](https://www.credly.com/badges/d62803e8-ebab-46dc-8819-aed19adc4e36)
-- [CompTIA IT Operations Specialist](https://www.credly.com/badges/e7ae1eed-4a37-4a9d-8f63-51aa9719c9a9)
-- [CompTIA A+ ](https://www.credly.com/badges/9ae7b7a2-9b01-4444-ba16-c2b1a802d53d)
-- [LPI Certified LE-1](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000562005/du3wfu6dhc)
-- [ETA Certified CST](https://www.credly.com/badges/3a49d971-448d-4b24-93c5-d5e967d0d300)
-- [Google IT Support](https://www.credly.com/badges/7f49cbf9-c9dc-4561-bd08-a0413ac6be78)
-  
-<h2>  
-  <!--
+## Objective
+
+To leverage my well-rounded IT background and expertise in cybersecurity to fortify digital landscapes against evolving threats. I aim to establish robust security controls and utilize advanced threat intelligence to protect organizational assets, ensuring a proactive and comprehensive security posture.
+
+## Skills
+
+| Skill                                         | Associated Project         |
+|-----------------------------------------------|----------------------------|
+| SIEM Implementation and Log Analysis          | <a href="https://mrcyberleon.hashnode.dev/utilize-custom-analytics-with-query-in-microsoft-sentinel-to-monitor-for-malicious-login-activities"> Detection Lab</a>|
+| EDR Security Automation with Tines SOAR | <a href="https://mrcyberleon.hashnode.dev/soar-edr-project-using-lima-charlie-tines"> SOC Automation Lab</a>|
+
+## Tools
+[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
+
+### Network & IDS/IPS
+<div>
+    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Fortinet-EF3B2D?&style=for-the-badge&logo=Fortinet&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Snort-FF0000?&style=for-the-badge&logo=Snort&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Ubiquiti-777BB4?&style=for-the-badge&logo=Ubiquiti&logoColor=white" />
+    <img src="https://img.shields.io/badge/-NMap-4682B4?&style=for-the-badge&logo=Nmap&logoColor=white" />
+    
+
+</div>
+
+### Endpoint
+<div>
+    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Sophos-2C8ECB?&style=for-the-badge&logo=Sophos&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Lima%20Charlie-1679A7?&style=for-the-badge&logo=LimaCharlie&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Viper-4CAF50?&style=for-the-badge&logo=Viper&logoColor=white" />
+
+</div>
+
+### SIEM
+<div>
+    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
+</div>
+
+## Certifications
+[Provide certifications that you have obtained. Use ChatGPT to help create the link - Remove this afterwards]]
+<div>
+<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
+<img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
+<img src="https://img.shields.io/badge/-Cloud%2B-4D4D4D?&style=for-the-badge&logo=CompTIA&logoColor=white" />
+<img src="https://img.shields.io/badge/-CCSP-006400?&style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/-CC-000080?&style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/-Azure%20Fundamental-0078D4?&style=for-the-badge&logo=Microsoft%20Azure&logoColor=white" />
+<img src="https://img.shields.io/badge/-Security%20Fundamentals-FF9900?&style=for-the-badge&logo=Microsoft&logoColor=white" />
+
+</div>
