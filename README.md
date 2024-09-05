@@ -10,7 +10,7 @@ I specialize in fortifying digital landscapes with robust security controls and 
 
 ## Objective
 
-To leverage my well-rounded IT background and expertise in cybersecurity to fortify digital landscapes against evolving threats. I aim to establish robust security controls and utilize advanced threat intelligence to protect organizational assets, ensuring a proactive and comprehensive security posture.
+To leverage my well-rounded IT background and skillset in cybersecurity to fortify digital landscapes against evolving threats. I aim to establish robust security controls and utilize advanced threat intelligence to protect organizational assets, ensuring a proactive and comprehensive security posture.
 
 ## Skills
 
