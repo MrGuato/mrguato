@@ -12,13 +12,13 @@ I specialize in fortifying digital landscapes with robust security controls and 
 
 To leverage my well-rounded IT background and skillset in cybersecurity to fortify digital landscapes against evolving threats. I aim to establish robust security controls and utilize advanced threat intelligence to protect organizational assets, ensuring a proactive and comprehensive security posture.
 
-## Skills
+## Projects
 
-| Skill                                         | Associated Project         |
+| What did I do?                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
 | SIEM Implementation and Log Analysis          | <a href="https://mrcyberleon.hashnode.dev/utilize-custom-analytics-with-query-in-microsoft-sentinel-to-monitor-for-malicious-login-activities"> Detection Lab</a>|
 | EDR Security Automation with Tines SOAR | <a href="https://mrcyberleon.hashnode.dev/soar-edr-project-using-lima-charlie-tines"> SOC Automation Lab</a>|
-| AWS Cloud Implementation | <a href="https://dqj7eu0b9k6fm.cloudfront.net"> AWS Cloud Implementation Project</a>|
+| AWS Cloud Implementation | <a href="https://mrcyberleon.hashnode.dev/aws-cloud-challenge"> AWS Cloud Implementation Project</a>|
 
 ## Online Labs
 <div style="display: flex; align-items: center;">
