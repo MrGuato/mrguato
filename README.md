@@ -9,6 +9,10 @@
 [![Credly](https://img.shields.io/badge/-Credly-F7931E?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/jonathan-deleon.bfdd720a)
 [![Hashnode](https://img.shields.io/badge/-Hashnode-2962FF?style=flat-square&logo=hashnode&logoColor=white)](https://hashnode.com/@mrcyberleon)
 
+## Certifications
+<img src="https://images.credly.com/size/340x340/images/38b12225-5b48-44e1-8750-20928cc595ea/image.png" alt="Badge 1" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/fc1352af-87fa-4947-ba54-398a0e63322e/security-compliance-and-identity-fundamentals-600x600.png" alt="Badge 2" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png" alt="Badge 3" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/20082fc1-94af-4773-9df0-28856b566748/image.png" alt="Badge 4" width="50" height="50"><img src="https://www.itonlinelearning.com/wp-content/uploads/2024/01/04294-comptia-cert-badges_specialist-ccap-540x503.png" alt="Badge 5" width="50" height="50"><img src="https://nyledige.dk/media/2155/secure-cloud-professional-cscp-for-ledige.png?width=1024&height=1024&mode=min" alt="Badge 6" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/7495098d-c8c3-41a8-a81a-772cdc7e6a95/image.png" alt="Badge 7" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/1d36cb36-20fc-4961-8d70-6307c015d1aa/blob" alt="Badge 8" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/3595706b-442c-455b-9bb1-18fa81b3f8cf/image.png" alt="Badge 9" width="50" height="50">
+
+## About Me
 I specialize in fortifying digital landscapes with robust security controls and custom detection systems, leveraging threat intelligence to stay ahead of sophisticated cyber adversaries.
 
 ## Objective
@@ -90,18 +94,4 @@ To leverage my well-rounded IT background and skillset in cybersecurity to forti
     <img src="https://img.shields.io/badge/-Zero%20Trust-FF6F00?&style=for-the-badge&logo=Microsoft%20Defender&logoColor=white" />
     <img src="https://img.shields.io/badge/-CSF%201.0/2.0-4CAF50?&style=for-the-badge&logo=National%20Institute%20of%20Standards%20and%20Technology&logoColor=white" />
     <img src="https://img.shields.io/badge/-CIS%20v8-E91E63?&style=for-the-badge&logo=Center%20for%20Internet%20Security&logoColor=white" />
-</div>
-
-## Certifications
-<div>
-    <img src="https://img.shields.io/badge/-CCSP-006400?&style=for-the-badge&logo=ISC2&logoColor=white" />
-    <img src="https://img.shields.io/badge/-CC-000080?&style=for-the-badge&logo=ISC2&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Microsoft%20Azure%20Certified-0078D4?&style=for-the-badge&logo=Microsoft%20Azure&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Microsoft%20Security%2C%20Compliance%20and%20Identity%20Certified-FF9900?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-ITIL-003D6C?&style=for-the-badge&logo=Axelos&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Project%2B-0092D1?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-    <img src="https://img.shields.io/badge/-LPI%20LE1-000000?&style=for-the-badge" />
-    <img src="https://img.shields.io/badge/-Fortinet%20Cybersecurity%20Associate-003E71?&style=for-the-badge&logo=Fortinet&logoColor=white" />
-    <img src="https://img.shields.io/badge/-CCSK-004B49?&style=for-the-badge&logo=Cloud%20Security%20Alliance&logoColor=white" />
 </div>
