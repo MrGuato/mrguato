@@ -2,8 +2,8 @@
 
 [![MrGuato's GitHub stats - Dark](https://github-readme-stats.vercel.app/api?username=mrguato&show_icons=true&theme=dark&bg_color=0d1117&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9#gh-dark-mode-only)](https://github.com/mrguato/github-readme-stats#gh-dark-mode-only)
 [![MrGuato's GitHub stats - Light](https://github-readme-stats.vercel.app/api?username=mrguato&show_icons=true&theme=light&bg_color=f6f8fa&icon_color=1b1f23&title_color=0366d6&text_color=24292e#gh-light-mode-only)](https://github.com/mrguato/github-readme-stats#gh-light-mode-only)
-[![Top Langs - Dark](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
-[![Top Langs - Light](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=light&bg_color=f6f8fa&title_color=0366d6&text_color=24292e#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
+[![Top Langs - Dark](https://github-readme-stats.vercel.app/api/top-langs/?username=mrguato&layout=compact&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9#gh-dark-mode-only)](https://github.com/mrguato/github-readme-stats#gh-dark-mode-only)
+[![Top Langs - Light](https://github-readme-stats.vercel.app/api/top-langs/?username=mrguato&layout=compact&theme=light&bg_color=f6f8fa&title_color=0366d6&text_color=24292e#gh-light-mode-only)](https://github.com/mrguato/github-readme-stats#gh-light-mode-only)
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/jonathan-deleon-ccsp-81302a62)
 [![Credly](https://img.shields.io/badge/-Credly-F7931E?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/jonathan-deleon.bfdd720a)
