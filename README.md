@@ -42,7 +42,7 @@ To leverage my well-rounded IT background and skillset in cybersecurity to forti
     <img src="https://img.shields.io/badge/-Snort-FF0000?&style=for-the-badge&logo=Snort&logoColor=white" />
     <img src="https://img.shields.io/badge/-Ubiquiti-777BB4?&style=for-the-badge&logo=Ubiquiti&logoColor=white" />
     <img src="https://img.shields.io/badge/-NMap-4682B4?&style=for-the-badge&logo=Nmap&logoColor=white" />
-    
+    <img src="https://img.shields.io/badge/-Palo%20Alto%20Networks-172A6B?&style=for-the-badge&logo=palo-alto-networks&logoColor=white" />
 
 </div>
 
@@ -52,6 +52,7 @@ To leverage my well-rounded IT background and skillset in cybersecurity to forti
     <img src="https://img.shields.io/badge/-Sophos-2C8ECB?&style=for-the-badge&logo=Sophos&logoColor=white" />
     <img src="https://img.shields.io/badge/-Lima%20Charlie-1679A7?&style=for-the-badge&logo=LimaCharlie&logoColor=white" />
     <img src="https://img.shields.io/badge/-Viper-4CAF50?&style=for-the-badge&logo=Viper&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Rapid7-D02F2F?&style=for-the-badge&logo=Rapid7&logoColor=white" />
 
 </div>
 
@@ -60,6 +61,7 @@ To leverage my well-rounded IT background and skillset in cybersecurity to forti
     <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft Logo" />
     <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
     <img src="https://img.shields.io/badge/-ELK-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Rapid7-D02F2F?&style=for-the-badge&logo=Rapid7&logoColor=white" />
 
 </div>
 
@@ -67,6 +69,7 @@ To leverage my well-rounded IT background and skillset in cybersecurity to forti
 <div>
     <img src="https://img.shields.io/badge/-Microsoft%20Defender-0078D4?&style=for-the-badge&logo=Microsoft%20Defender&logoColor=white" />
     <img src="https://img.shields.io/badge/-Nessus-000000?&style=for-the-badge&logo=Nessus&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Rapid7-D02F2F?&style=for-the-badge&logo=Rapid7&logoColor=white" />
 </div>
 
 ### Email Gateway Security
