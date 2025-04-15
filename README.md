@@ -35,6 +35,7 @@ To leverage my well-rounded IT background and skillset in cybersecurity to forti
 | SIEM Implementation and Log Analysis          | <a href="https://mrcyberleon.hashnode.dev/utilize-custom-analytics-with-query-in-microsoft-sentinel-to-monitor-for-malicious-login-activities"> Detection Lab</a>|
 | EDR Security Automation with Tines SOAR | <a href="https://mrcyberleon.hashnode.dev/soar-edr-project-using-lima-charlie-tines"> SOC Automation Lab</a>|
 | AWS Cloud Implementation | <a href="https://mrcyberleon.hashnode.dev/aws-cloud-challenge"> AWS Cloud Implementation Project</a>|
+| Serverless API Security | <a href="https://mrcyberleon.hashnode.dev/building-a-serverless-cybersecurity-x-star-wars-api-and-connecting-it-to-my-cloud-resume-website"> AWS Cloud Implementation Project</a>|
 
 ## Online Labs
 <div style="display: flex; align-items: center;">
