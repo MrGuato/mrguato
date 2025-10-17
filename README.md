@@ -10,7 +10,7 @@
 [![Hashnode](https://img.shields.io/badge/-Hashnode-2962FF?style=flat-square&logo=hashnode&logoColor=white)](https://hashnode.com/@mrcyberleon)
 
 ## Certifications
-<img src="https://images.credly.com/size/340x340/images/38b12225-5b48-44e1-8750-20928cc595ea/image.png" alt="Badge 1" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/fc1352af-87fa-4947-ba54-398a0e63322e/security-compliance-and-identity-fundamentals-600x600.png" alt="Badge 2" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png" alt="Badge 3" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/20082fc1-94af-4773-9df0-28856b566748/image.png" alt="Badge 4" width="50" height="50"><img src="https://www.itonlinelearning.com/wp-content/uploads/2024/01/04294-comptia-cert-badges_specialist-ccap-540x503.png" alt="Badge 5" width="50" height="50"><img src="https://nyledige.dk/media/2155/secure-cloud-professional-cscp-for-ledige.png?width=1024&height=1024&mode=min" alt="Badge 6" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/7495098d-c8c3-41a8-a81a-772cdc7e6a95/image.png" alt="Badge 7" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/1d36cb36-20fc-4961-8d70-6307c015d1aa/blob" alt="Badge 8" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/3595706b-442c-455b-9bb1-18fa81b3f8cf/image.png" alt="Badge 9" width="50" height="50"><img src="https://images.credly.com/size/680x680/images/2f73db94-bd85-4391-8885-6c14862457eb/image.png" alt="APIsec Certified Practitioner" width="50" height="50">
+<img src="https://images.credly.com/size/340x340/images/38b12225-5b48-44e1-8750-20928cc595ea/image.png" alt="Badge 1" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/564a69d3-b7c6-4738-aa2e-1d803869876c/blob" alt="Badge 1A" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/6b9a3559-90bd-4412-b156-21f99670206a/image.png" alt="Badge 1B" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/fc1352af-87fa-4947-ba54-398a0e63322e/security-compliance-and-identity-fundamentals-600x600.png" alt="Badge 2" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png" alt="Badge 3" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/20082fc1-94af-4773-9df0-28856b566748/image.png" alt="Badge 4" width="50" height="50"><img src="https://www.itonlinelearning.com/wp-content/uploads/2024/01/04294-comptia-cert-badges_specialist-ccap-540x503.png" alt="CompTIA CCAP" width="50" height="50"><img src="https://comptiacdn.azureedge.net/webcontent/images/default-source/certproduct/pathways/04294-comptia-cert-badges-csis.png?sfvrsn=64a8a736_2" alt="CompTIA CSIS" width="50" height="50"><img src="https://nyledige.dk/media/2155/secure-cloud-professional-cscp-for-ledige.png?width=1024&height=1024&mode=min" alt="Badge 6" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/7495098d-c8c3-41a8-a81a-772cdc7e6a95/image.png" alt="Badge 7" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/1d36cb36-20fc-4961-8d70-6307c015d1aa/blob" alt="Badge 8" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/3595706b-442c-455b-9bb1-18fa81b3f8cf/image.png" alt="Badge 9" width="50" height="50"><img src="https://images.credly.com/size/680x680/images/2f73db94-bd85-4391-8885-6c14862457eb/image.png" alt="APIsec Certified Practitioner" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/8b943c4b-c186-4e9f-84aa-004322b76eed/image.png" alt="ITIL" width="50" height="50">
 
 ## Education
 <p>
@@ -41,6 +41,8 @@ Use my IT and cybersecurity skills to protect assets, stop threats early, and ke
 | EDR Security Automation with Tines SOAR | <a href="https://mrcyberleon.hashnode.dev/soar-edr-project-using-lima-charlie-tines"> SOC Automation Lab</a>|
 | AWS Cloud Implementation | <a href="https://mrcyberleon.hashnode.dev/aws-cloud-challenge"> AWS Cloud Implementation Project</a>|
 | Serverless API Security | <a href="https://mrcyberleon.hashnode.dev/building-a-serverless-cybersecurity-x-star-wars-api-and-connecting-it-to-my-cloud-resume-website"> AWS Cloud Implementation Project</a>|
+| FutureCalc (Savings & Investing Calculator) | <a href="https://github.com/MrGuato/futurecalc">FutureCalc Project</a> |
+| Valheim DevOps Game Server | <a href="https://github.com/MrGuato/Valheim_Game_Server">Valheim Game Server Project</a> |
 
 ## Online Labs
 <div style="display: flex; align-items: center;">
@@ -68,16 +70,16 @@ Use my IT and cybersecurity skills to protect assets, stop threats early, and ke
     <img src="https://img.shields.io/badge/-Lima%20Charlie-1679A7?&style=for-the-badge&logo=LimaCharlie&logoColor=white" />
     <img src="https://img.shields.io/badge/-Viper-4CAF50?&style=for-the-badge&logo=Viper&logoColor=white" />
     <img src="https://img.shields.io/badge/-Rapid7-D02F2F?&style=for-the-badge&logo=Rapid7&logoColor=white" />
-
+    <img src="https://img.shields.io/badge/-SentinelOne%20%20-5B2E91?&style=for-the-badge&logo=sentinelone&logoColor=white" />
 </div>
 
 ### SIEM
 <div>
     <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft Logo" />
     <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-ELK-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" />
+    <img src="https://img.shields.io/badge/-ELK-005571?&style=for-the-badge&logo=elasticsearch&logoColor=white" />
     <img src="https://img.shields.io/badge/-Rapid7-D02F2F?&style=for-the-badge&logo=Rapid7&logoColor=white" />
-
+    <img src="https://img.shields.io/badge/-SentinelOne%20AI%20SIEM-5B2E91?&style=for-the-badge&logo=sentinelone&logoColor=white" />
 </div>
 
 ### Vulnerability Scanning
@@ -86,7 +88,7 @@ Use my IT and cybersecurity skills to protect assets, stop threats early, and ke
     <img src="https://img.shields.io/badge/-Nessus-000000?&style=for-the-badge&logo=Nessus&logoColor=white" />
     <img src="https://img.shields.io/badge/-Rapid7-D02F2F?&style=for-the-badge&logo=Rapid7&logoColor=white" />
     <img src="https://img.shields.io/badge/-RoboShadow-2E3A59?style=for-the-badge&logo=shield&logoColor=white" />
-  
+    <img src="https://img.shields.io/badge/-SentinelOne%20%20-5B2E91?&style=for-the-badge&logo=sentinelone&logoColor=white" />
 </div>
 
 ### Email Gateway Security
