@@ -1,16 +1,16 @@
-# Hello, I'm Jonathan, CCSP®
+# Hello, I'm Jonathan, CISM®
 
 [![MrGuato's GitHub stats - Dark](https://github-readme-stats.vercel.app/api?username=mrguato&show_icons=true&theme=dark&bg_color=0d1117&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9#gh-dark-mode-only)](https://github.com/mrguato/github-readme-stats#gh-dark-mode-only)
 [![MrGuato's GitHub stats - Light](https://github-readme-stats.vercel.app/api?username=mrguato&show_icons=true&theme=light&bg_color=f6f8fa&icon_color=1b1f23&title_color=0366d6&text_color=24292e#gh-light-mode-only)](https://github.com/mrguato/github-readme-stats#gh-light-mode-only)
 [![Top Langs - Dark](https://github-readme-stats.vercel.app/api/top-langs/?username=mrguato&layout=compact&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9#gh-dark-mode-only)](https://github.com/mrguato/github-readme-stats#gh-dark-mode-only)
 [![Top Langs - Light](https://github-readme-stats.vercel.app/api/top-langs/?username=mrguato&layout=compact&theme=light&bg_color=f6f8fa&title_color=0366d6&text_color=24292e#gh-light-mode-only)](https://github.com/mrguato/github-readme-stats#gh-light-mode-only)
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/jonathan-deleon-ccsp-81302a62)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jonathan-deleon-cism/)
 [![Credly](https://img.shields.io/badge/-Credly-F7931E?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/jonathan-deleon.bfdd720a)
 [![Hashnode](https://img.shields.io/badge/-Hashnode-2962FF?style=flat-square&logo=hashnode&logoColor=white)](https://hashnode.com/@mrcyberleon)
 
 ## Certifications
-<img src="https://images.credly.com/size/340x340/images/38b12225-5b48-44e1-8750-20928cc595ea/image.png" alt="Badge 1" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/564a69d3-b7c6-4738-aa2e-1d803869876c/blob" alt="Badge 1A" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/6b9a3559-90bd-4412-b156-21f99670206a/image.png" alt="Badge 1B" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/fc1352af-87fa-4947-ba54-398a0e63322e/security-compliance-and-identity-fundamentals-600x600.png" alt="Badge 2" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png" alt="Badge 3" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/20082fc1-94af-4773-9df0-28856b566748/image.png" alt="Badge 4" width="50" height="50"><img src="https://www.itonlinelearning.com/wp-content/uploads/2024/01/04294-comptia-cert-badges_specialist-ccap-540x503.png" alt="CompTIA CCAP" width="50" height="50"><img src="https://comptiacdn.azureedge.net/webcontent/images/default-source/certproduct/pathways/04294-comptia-cert-badges-csis.png?sfvrsn=64a8a736_2" alt="CompTIA CSIS" width="50" height="50"><img src="https://nyledige.dk/media/2155/secure-cloud-professional-cscp-for-ledige.png?width=1024&height=1024&mode=min" alt="Badge 6" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/7495098d-c8c3-41a8-a81a-772cdc7e6a95/image.png" alt="Badge 7" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/1d36cb36-20fc-4961-8d70-6307c015d1aa/blob" alt="Badge 8" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/3595706b-442c-455b-9bb1-18fa81b3f8cf/image.png" alt="Badge 9" width="50" height="50"><img src="https://images.credly.com/size/680x680/images/2f73db94-bd85-4391-8885-6c14862457eb/image.png" alt="APIsec Certified Practitioner" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/8b943c4b-c186-4e9f-84aa-004322b76eed/image.png" alt="ITIL" width="50" height="50">
+<img src="https://images.credly.com/size/680x680/images/d0891dee-6360-496c-9981-40652523b502/dbdea6794f1a6bbcc18d90eea923421aac7df6b5.png" alt="CISM" width="50" height="50"> <img src="https://images.credly.com/size/340x340/images/38b12225-5b48-44e1-8750-20928cc595ea/image.png" alt="Badge 1" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/564a69d3-b7c6-4738-aa2e-1d803869876c/blob" alt="Badge 1A" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/6b9a3559-90bd-4412-b156-21f99670206a/image.png" alt="Badge 1B" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/fc1352af-87fa-4947-ba54-398a0e63322e/security-compliance-and-identity-fundamentals-600x600.png" alt="Badge 2" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png" alt="Badge 3" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/20082fc1-94af-4773-9df0-28856b566748/image.png" alt="Badge 4" width="50" height="50"><img src="https://www.itonlinelearning.com/wp-content/uploads/2024/01/04294-comptia-cert-badges_specialist-ccap-540x503.png" alt="CompTIA CCAP" width="50" height="50"><img src="https://comptiacdn.azureedge.net/webcontent/images/default-source/certproduct/pathways/04294-comptia-cert-badges-csis.png?sfvrsn=64a8a736_2" alt="CompTIA CSIS" width="50" height="50"><img src="https://nyledige.dk/media/2155/secure-cloud-professional-cscp-for-ledige.png?width=1024&height=1024&mode=min" alt="Badge 6" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/7495098d-c8c3-41a8-a81a-772cdc7e6a95/image.png" alt="Badge 7" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/1d36cb36-20fc-4961-8d70-6307c015d1aa/blob" alt="Badge 8" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/3595706b-442c-455b-9bb1-18fa81b3f8cf/image.png" alt="Badge 9" width="50" height="50"><img src="https://images.credly.com/size/680x680/images/2f73db94-bd85-4391-8885-6c14862457eb/image.png" alt="APIsec Certified Practitioner" width="50" height="50"><img src="https://images.credly.com/size/340x340/images/8b943c4b-c186-4e9f-84aa-004322b76eed/image.png" alt="ITIL" width="50" height="50">
 
 ## Education
 <p>
@@ -19,10 +19,11 @@
 
 ## Working Towards
 <p>
-  <img src="https://images.credly.com/size/680x680/images/3457dada-1fd4-4c7a-a73b-da1a85832c76/blob" alt="APIsec Certified Practitioner" width="50" height="50">
-  <img src="https://images.credly.com/size/680x680/images/d0891dee-6360-496c-9981-40652523b502/dbdea6794f1a6bbcc18d90eea923421aac7df6b5.png" alt="CISM" width="50" height="50">
   <img src="https://images.credly.com/size/680x680/images/1ad16b6f-2c71-4a2e-ae74-ec69c4766039/azure-security-engineer-associate600x600.png" alt="Microsoft Security Engineer" width="50" height="50">
   <img src="https://training.linuxfoundation.org/wp-content/uploads/2021/09/KCNA-Logo-1000x1000.png" alt="Kubernetes and Cloud Native Associate (KCNA)" width="50" height="50">
+  <img src="https://training.linuxfoundation.org/wp-content/uploads/2023/01/kcsa_badge_new-300x300.png" alt="Kubernetes and Cloud Native Security Associate (KCSA)" width="50" height="50">
+
+    
 </p>
 
 
@@ -46,8 +47,7 @@ Use my IT and cybersecurity skills to protect assets, stop threats early, and ke
 
 ## Online Labs
 <div style="display: flex; align-items: center;">
-    <img src="https://cyberdefenders-storage.s3.me-central-1.amazonaws.com/profile-badges/MrGuato.png" width="300" style="margin-right: 10px;" />
-    <img src="https://tryhackme-badges.s3.amazonaws.com/MrGuato.png" alt="TryHackMe" width="300" />
+    <img src="https://tryhackme-badges.s3.amazonaws.com/MrGuato.png" alt="Your Image Badge" /> 
 </div>
 
 ## Tools & Programs
