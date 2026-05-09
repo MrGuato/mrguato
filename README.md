@@ -13,7 +13,7 @@ I work on the infrastructure and security side of things, and I like keeping tho
 
 [![Cluster](https://img.shields.io/website?url=https%3A%2F%2Fstatus.deleontech.net&up_message=healthy&up_color=brightgreen&down_message=degraded&down_color=red&label=status.deleontech.net&style=for-the-badge&logo=kubernetes&logoColor=white)](https://status.deleontech.net)
 
-Multi-arch k3s cluster running on a Raspberry Pi 4 and a Lenovo ThinkCentre I picked up secondhand. Everything is managed through FluxCD from [`MrGuato/pi-cluster`](https://github.com/MrGuato/pi-cluster) so I never really touch the cluster directly. Secrets are encrypted with SOPS and age and committed right into the repo. Traefik handles routing, Cloudflare Tunnel gets traffic in without exposing anything, Longhorn does the block storage, and Velero backs everything up to a MinIO bucket on a separate node. The dashboard above is pulling from kube-prometheus-stack.
+Multi-arch k3s cluster running on multiple Raspberry Pi 4's and a Lenovo ThinkCentre. Everything is managed through FluxCD from [`MrGuato/pi-cluster`](https://github.com/MrGuato/pi-cluster) so I never really touch the cluster directly. Secrets are encrypted with SOPS and age and committed right into the repo. Traefik handles routing, Cloudflare Tunnel gets traffic in without exposing anything, Longhorn does the block storage, and Velero backs everything up to a MinIO bucket on a separate node. The dashboard above is pulling from kube-prometheus-stack.
 
 ---
 
