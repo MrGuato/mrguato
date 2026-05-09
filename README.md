@@ -39,8 +39,8 @@ A rough map of where I spend my time and the tools I tend to reach for.
 ### [pi-cluster](https://github.com/MrGuato/pi-cluster)
 My homelab cluster, fully declarative. Flux reconciles apps and infrastructure from Git, SOPS-encrypted secrets live in the public repo, and Renovate keeps image tags fresh with automated PRs. Velero does restic backups out to MinIO on a separate node, and Longhorn handles distributed block storage across the ARM and x86 nodes. The live dashboard at the top of this README runs on it.
 
-### [Zero-Trust C2 for Autonomous Drones (Active Development)](https://github.com/MrGuato/vertex-c2) ###
-Security research demonstrating zero-trust C2 architecture for autonomous drones in contested RF environments. ArduPilot SITL, WireGuard dual-interface mesh, threat scenario demonstrations, and k3s-based GCS stack with Traefik mTLS.
+### [vertex-c2](https://github.com/MrGuato/vertex-c2) · [website](https://https://vertex-c2.vercel.app/)
+Security research demonstrating zero-trust C2 architecture for autonomous drones in contested RF environments. Built on RHEL 10 with ArduPilot SITL for realistic flight simulation and a WireGuard dual-interface mesh enforcing per-identity tunnel segmentation. Implements a structured threat model (T-01 through T-03) covering RF jamming, link hijacking, and GCS compromise scenarios. GCS stack runs on k3s with Traefik mTLS, FluxCD GitOps, and Prometheus/Loki for full observability. Companion site at vertex-c2.vercel.app documents architecture and threat findings.
 
 
 ### [windrose-dedicated-server](https://github.com/MrGuato/windrose-dedicated-server) · [docs](https://mrguato.github.io/windrose-dedicated-server/)
