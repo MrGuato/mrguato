@@ -39,6 +39,10 @@ A rough map of where I spend my time and the tools I tend to reach for.
 ### [pi-cluster](https://github.com/MrGuato/pi-cluster)
 My homelab cluster, fully declarative. Flux reconciles apps and infrastructure from Git, SOPS-encrypted secrets live in the public repo, and Renovate keeps image tags fresh with automated PRs. Velero does restic backups out to MinIO on a separate node, and Longhorn handles distributed block storage across the ARM and x86 nodes. The live dashboard at the top of this README runs on it.
 
+### [Zero-Trust C2 for Autonomous Drones (Active Development)](https://github.com/MrGuato/vertex-c2) ###
+Security research demonstrating zero-trust C2 architecture for autonomous drones in contested RF environments. ArduPilot SITL, WireGuard dual-interface mesh, threat scenario demonstrations, and k3s-based GCS stack with Traefik mTLS.
+
+
 ### [windrose-dedicated-server](https://github.com/MrGuato/windrose-dedicated-server) · [docs](https://mrguato.github.io/windrose-dedicated-server/)
 Self-hosted Windrose dedicated server for Linux, packaged as a Docker container running SteamCMD and Wine with Xvfb for a headless runtime. A single `./windrose` CLI handles setup, lifecycle, status, and updates, with all configuration driven from a `.env` file so there is no manual JSON editing. Anonymous SteamCMD validates the install on every container start, saves and config persist through bind-mounted volumes, and a healthcheck watches the server process. Backup and restore scripts handle retention, automated builds publish signed images to GHCR, and players join via in-game invite code so there is no port forwarding to deal with. Documentation site is published with Just the Docs.
 
