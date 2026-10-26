@@ -88,8 +88,8 @@ A Valheim dedicated server I host for family and friends, packaged so I can stop
 #### [Longhouse](https://github.com/MrGuato/valheim-game-dashboard) · [live demo](https://mrguato.github.io/valheim-game-dashboard/) · [docs](https://mrguato.github.io/valheim-game-dashboard/docs.html)
 The companion dashboard for that server, built because the group chat kept asking "who's on?" Server status straight from Steam's query, the in-game day, boss progression, weekly playtime and death leaderboards, a play-time heatmap, and armory-style profiles with a 3D voxel figure wearing each player's real gear. Runs in Docker next to the server.
 
-#### [enshrouded-docker](https://github.com/MrGuato/enshrouded-docker) · [docs](https://mrguato.github.io/enshrouded-docker/)
-Containerized game server for Enshrouded, built from scratch on ubuntu:22.04 with WineHQ and SteamCMD. Runs as non-root with runtime SteamCMD updates, semantic versioning, and a GitHub Actions pipeline that publishes signed images to GHCR. Getting SteamCMD symlinks and Xvfb lock files to behave in a clean container was more fun than I expected.
+#### [enshrouded-docker](https://github.com/MrGuato/enshrouded-docker) · [docs](https://mrguato.github.io/enshrouded-docker/) · [image](https://github.com/MrGuato/enshrouded-docker/pkgs/container/enshrouded-docker)
+The Enshrouded sibling of my Valheim server. Enshrouded only ships a Windows dedicated server, so the image runs it under Wine and Xvfb, forces SteamCMD to fetch the Windows build, and patches the game on every start. One `./enshrouded` CLI covers setup, status, logs, updates, backups and restores, settings and Admin/Friend/Guest role passwords come from a single `.env`, and a one-line installer takes a fresh Linux host to a running server. Non-root, nightly Watchtower updates, and every change goes through hadolint, shellcheck, CodeQL, gitleaks and Trivy. Getting Xvfb lock files and SteamCMD to behave in a clean container was more fun than I expected.
 
 ### World of Warcraft
 
