@@ -14,7 +14,7 @@
 
 - Taking **[pisentry](https://github.com/MrGuato/pisentry)** from v0.1 toward 1.0. A versioned rule schema and drop-in rules in `rules.d` are landing now.
 - Contributing upstream to **[OpenSign](https://github.com/OpenSignLabs/OpenSign/pulls?q=author%3AMrGuato)**, the open source DocuSign alternative (docs and Docker deployment).
-- Running an AzerothCore realm for friends and family, and building addons and tooling around it.
+- Building WoW 3.3.5a addons and contributing to AzerothCore modules in the mod-playerbots ecosystem.
 - Studying for AZ-500, KCNA, and KCSA, and looking at Talos and Omni for the next version of the cluster.
 
 ---
@@ -93,14 +93,14 @@ Containerized game server for Enshrouded, built from scratch on ubuntu:22.04 wit
 
 ### World of Warcraft
 
-#### Ill-Gotten Realms · [igr.deleontech.net](https://igr.deleontech.net)
-A friends-and-family AzerothCore 3.3.5a realm that I run. The site is Vite and React on Vercel, with serverless functions that pull live realm stats and raid progress from the armory API and cluster health from the homelab, with a cached snapshot to fall back on if the armory is down.
-
 #### [muster](https://github.com/MrGuato/muster) · [docs](https://mrguato.github.io/muster/)
 A WoW 3.3.5a addon for [mod-playerbots](https://github.com/mod-playerbots/mod-playerbots). Raise a whole dungeon or raid group from a template in one click, give orders by role or to a single bot, and switch each bot's strategies with checkboxes, all from one panel and a pinnable command bar.
 
 #### [DialedInUI](https://github.com/MrGuato/DialedInUI) · [CurseForge](https://www.curseforge.com/wow/addons/dialedinui) and [NodeNotes](https://github.com/MrGuato/NodeNotes) · [CurseForge](https://www.curseforge.com/wow/addons/nodenotes)
 Two published addons. DialedInUI gives you one-click layouts for Blizzard's own UI: pick from ten popular setups, preview them, apply through Edit Mode, and undo any time. NodeNotes remembers every herb and ore node you've gathered, what each one gave you, and lets you pin your own notes to them on the map.
+
+#### Module contributions · [mod-dungeon-clear](https://github.com/jrad7/mod-dungeon-clear/pulls?q=author%3AMrGuato) and [its addon](https://github.com/jrad7/mod-dungeon-clear-addon/pulls?q=author%3AMrGuato)
+Upstream work on an AzerothCore module that teaches playerbots to clear dungeons and raids: new boss handling for Arlokk and Ouro, raid fixes from Blackwing Lair, and a new event status state in the companion addon.
 
 ### Earlier
 
