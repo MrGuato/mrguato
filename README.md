@@ -5,16 +5,16 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jonathan-deleon-cism/)
 [![Credly](https://img.shields.io/badge/Credly-F7931E?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/jonathan-deleon.bfdd720a)
 [![GitOps Notes](https://img.shields.io/badge/GitOps%20Notes-222222?style=flat-square&logo=astro&logoColor=white)](https://notes.deleontech.net)
-[![pisentry](https://img.shields.io/badge/pisentry-0E9F6E?style=flat-square&logo=raspberrypi&logoColor=white)](https://mrguato.github.io/pisentry/)
+[![pisentry](https://img.shields.io/badge/pisentry-0E9F6E?style=flat-square&logo=raspberrypi&logoColor=white)](https://pisentry.dev/)
 [![Landing Site](https://img.shields.io/badge/Landing%20Site-%236A5ACD?style=flat-square&logo=amazonaws&logoColor=white)](https://cloud.mrcyberleon.org/)
 
 ---
 
 ## Now
 
-- Taking **[pisentry](https://github.com/MrGuato/pisentry)** from v0.1 toward 1.0. A versioned rule schema and drop-in rules in `rules.d` are landing now.
+- Taking **[pisentry](https://github.com/pisentry/pisentry)** toward 1.0. It moved to its own org and [pisentry.dev](https://pisentry.dev/), and v0.2.0 shipped with signed releases, a versioned event schema, and drop-in rules in `rules.d` that reload without a restart. Curated rule packs are next.
 - Contributing upstream to **[OpenSign](https://github.com/OpenSignLabs/OpenSign/pulls?q=author%3AMrGuato)**, the open source DocuSign alternative (docs and Docker deployment).
-- Building WoW 3.3.5a addons and contributing to AzerothCore modules in the mod-playerbots ecosystem.
+- Building WoW addons for 3.3.5a and World of Warcraft: Forever, and contributing to AzerothCore modules in the mod-playerbots ecosystem.
 - Studying for AZ-500, KCNA, and KCSA, and looking at Talos and Omni for the next version of the cluster.
 
 ---
@@ -23,7 +23,7 @@
 
 [![Cluster](https://img.shields.io/website?url=https%3A%2F%2Fstatus.deleontech.net&up_message=healthy&up_color=brightgreen&down_message=degraded&down_color=red&label=status.deleontech.net&style=for-the-badge&logo=kubernetes&logoColor=white)](https://status.deleontech.net)
 
-Mixed-architecture k3s cluster on three Raspberry Pi 4s (Debian 13) and a Lenovo ThinkStation (RHEL 10.1). Everything is managed through FluxCD from [`MrGuato/pi-cluster`](https://github.com/MrGuato/pi-cluster) with separate base and staging overlays, so I never really touch the cluster directly. Secrets are encrypted with SOPS and age and committed right into the repo. Cloudflare Tunnel gets traffic in with zero open ports, Longhorn does the block storage, and Velero backs everything up to MinIO on a separate node. Falco watches the container runtime and [pisentry](https://github.com/MrGuato/pisentry) runs as a DaemonSet watching the hosts underneath. The dashboard above is pulling from kube-prometheus-stack.
+Mixed-architecture k3s cluster on three Raspberry Pi 4s (Debian 13) and a Lenovo ThinkStation (RHEL 10.1). Everything is managed through FluxCD from [`MrGuato/pi-cluster`](https://github.com/MrGuato/pi-cluster) with separate base and staging overlays, so I never really touch the cluster directly. Secrets are encrypted with SOPS and age and committed right into the repo. Cloudflare Tunnel gets traffic in with zero open ports, Longhorn does the block storage, and Velero backs everything up to MinIO on a separate node. Falco watches the container runtime and [pisentry](https://github.com/pisentry/pisentry) runs as a DaemonSet watching the hosts underneath. The dashboard above is pulling from kube-prometheus-stack.
 
 ---
 
@@ -48,23 +48,24 @@ A rough map of where I spend my time and the tools I tend to reach for.
 ## Featured: pisentry
 
 <p align="center">
-  <a href="https://github.com/MrGuato/pisentry">
+  <a href="https://github.com/pisentry/pisentry">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MrGuato/pisentry/main/docs/assets/readme-banner-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MrGuato/pisentry/main/docs/assets/readme-banner-light.svg">
-      <img alt="pisentry: host security agent for Raspberry Pi and ARM Linux" src="https://raw.githubusercontent.com/MrGuato/pisentry/main/docs/assets/readme-banner-dark.svg" width="100%">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pisentry/pisentry/main/docs/assets/readme-banner-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pisentry/pisentry/main/docs/assets/readme-banner-light.svg">
+      <img alt="pisentry: host security agent for Raspberry Pi and ARM Linux" src="https://raw.githubusercontent.com/pisentry/pisentry/main/docs/assets/readme-banner-dark.svg" width="100%">
     </picture>
   </a>
 </p>
 
-**[Repo](https://github.com/MrGuato/pisentry) · [Website](https://mrguato.github.io/pisentry/) · [Releases](https://github.com/MrGuato/pisentry/releases) · [Container](https://github.com/MrGuato/pisentry/pkgs/container/pisentry)**
+**[Repo](https://github.com/pisentry/pisentry) · [Website](https://pisentry.dev/) · [Releases](https://github.com/pisentry/pisentry/releases) · [Container](https://github.com/pisentry/pisentry/pkgs/container/pisentry)**
 
-My main open source project. A single static Go binary that watches a small Linux host for the ten attacks that hit it most (SSH brute force, suspicious logins, privilege escalation, persistence, cryptominers, reverse shells, file tampering and more), ranks them, and tells you where to look first. Standard library only, about 12 MB resident, under 1% CPU on a 2 GB Pi. Output goes out as Prometheus metrics, JSON events, a terminal Top 10 report, and push alerts to ntfy, Discord, Slack, or any webhook. It runs as a hardened systemd service or a Flux-managed DaemonSet, right next to Falco: Falco covers the container runtime, pisentry covers the host.
+My main open source project. A single static Go binary that watches a small Linux host for the ten attacks that hit it most (SSH brute force, suspicious logins, privilege escalation, persistence, cryptominers, reverse shells, file tampering and more), ranks them, and tells you where to look first. Standard library only, about 12 MB resident, under 1% CPU on a 2 GB Pi. Output goes out as Prometheus metrics, JSON events, a terminal Top 10 report, and push alerts to ntfy, Discord, Slack, or any webhook. You can write your own detections as JSON rules in `rules.d` and they reload without a restart, every attacker-facing parser gets fuzzed, and releases are signed with Sigstore cosign. It runs as a hardened systemd service or a Flux-managed DaemonSet, right next to Falco: Falco covers the container runtime, pisentry covers the host.
 
-![GitHub release](https://img.shields.io/github/v/release/MrGuato/pisentry?style=flat-square)
-[![ci](https://github.com/MrGuato/pisentry/actions/workflows/ci.yml/badge.svg)](https://github.com/MrGuato/pisentry/actions/workflows/ci.yml)
-[![codeql](https://github.com/MrGuato/pisentry/actions/workflows/codeql.yml/badge.svg)](https://github.com/MrGuato/pisentry/actions/workflows/codeql.yml)
-[![OpenSSF Scorecard](https://img.shields.io/ossf-scorecard/github.com/MrGuato/pisentry?label=OpenSSF%20Scorecard&style=flat-square)](https://scorecard.dev/viewer/?uri=github.com/MrGuato/pisentry)
+![GitHub release](https://img.shields.io/github/v/release/pisentry/pisentry?style=flat-square)
+[![ci](https://github.com/pisentry/pisentry/actions/workflows/ci.yml/badge.svg)](https://github.com/pisentry/pisentry/actions/workflows/ci.yml)
+[![codeql](https://github.com/pisentry/pisentry/actions/workflows/codeql.yml/badge.svg)](https://github.com/pisentry/pisentry/actions/workflows/codeql.yml)
+[![OpenSSF Scorecard](https://img.shields.io/ossf-scorecard/github.com/pisentry/pisentry?label=OpenSSF%20Scorecard&style=flat-square)](https://scorecard.dev/viewer/?uri=github.com/pisentry/pisentry)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16178/badge)](https://www.bestpractices.dev/projects/16178)
 ![Dependencies](https://img.shields.io/badge/Dependencies-none%2C%20stdlib%20only-blue?style=flat-square)
 ![Platforms](https://img.shields.io/badge/Platforms-arm64%20%7C%20armv7%20%7C%20amd64-success?style=flat-square&logo=raspberrypi)
 
@@ -96,8 +97,8 @@ The Enshrouded sibling of my Valheim server. Enshrouded only ships a Windows ded
 #### [muster](https://github.com/MrGuato/muster) · [docs](https://mrguato.github.io/muster/)
 A WoW 3.3.5a addon for [mod-playerbots](https://github.com/mod-playerbots/mod-playerbots). Raise a whole dungeon or raid group from a template in one click, give orders by role or to a single bot, and switch each bot's strategies with checkboxes, all from one panel and a pinnable command bar.
 
-#### [DialedInUI](https://github.com/MrGuato/DialedInUI) · [CurseForge](https://www.curseforge.com/wow/addons/dialedinui) and [NodeNotes](https://github.com/MrGuato/NodeNotes) · [CurseForge](https://www.curseforge.com/wow/addons/nodenotes)
-Two published addons. DialedInUI gives you one-click layouts for Blizzard's own UI: pick from ten popular setups, preview them, apply through Edit Mode, and undo any time. NodeNotes remembers every herb and ore node you've gathered, what each one gave you, and lets you pin your own notes to them on the map.
+#### [DialedInUI](https://github.com/MrGuato/DialedInUI) · [CurseForge](https://www.curseforge.com/wow/addons/dialedinui), [NodeNotes](https://github.com/MrGuato/NodeNotes) · [CurseForge](https://www.curseforge.com/wow/addons/nodenotes), and [FightNotes](https://github.com/MrGuato/FightNotes) · [CurseForge](https://www.curseforge.com/wow/addons/fightnotes)
+Three published addons for World of Warcraft: Forever. DialedInUI gives you one-click layouts for Blizzard's own UI: pick from ten popular setups, preview them, apply through Edit Mode, and undo any time. NodeNotes remembers the herbs, ore, fishing spots, chests, rares, and special drops you've found, what each one gave you, and lets you pin your own notes to them on the map, with optional sharing to your group or guild. FightNotes keeps your fights after they end: a small bar window with the game's own meter, personal bests per boss, each try next to the last, and a raid night summary.
 
 #### Module contributions · [mod-dungeon-clear](https://github.com/jrad7/mod-dungeon-clear/pulls?q=author%3AMrGuato) and [its addon](https://github.com/jrad7/mod-dungeon-clear-addon/pulls?q=author%3AMrGuato)
 Upstream work on an AzerothCore module that teaches playerbots to clear dungeons and raids: new boss handling for Arlokk and Ouro, raid fixes from Blackwing Lair, and a new event status state in the companion addon.
