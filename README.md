@@ -1,51 +1,52 @@
 # Jonathan DeLeon
 
-**Infrastructure and Security Lead.** I build and run the platforms, and I secure them while I'm building them instead of bolting security on afterward. Day to day that looks like hypervisors, Kubernetes, IaC pipelines, identity, detection, and the compliance work that ties it all together. After hours it's a homelab that runs like production, open source security tooling, and self-hosted servers for my family and friends.
+**Infrastructure and Security Lead.** I build and run the platforms, and I secure them while I'm building them. Day to day that looks like hypervisors, Kubernetes, IaC pipelines, identity, detection, and compliance work. After hours it's a homelab that runs like production, open source security tooling, and self-hosted servers for my family and friends.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jonathan-deleon-cism/)
 [![Credly](https://img.shields.io/badge/Credly-F7931E?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/jonathan-deleon.bfdd720a)
 [![GitOps Notes](https://img.shields.io/badge/GitOps%20Notes-222222?style=flat-square&logo=astro&logoColor=white)](https://notes.deleontech.net)
-[![pisentry](https://img.shields.io/badge/pisentry-0E9F6E?style=flat-square&logo=raspberrypi&logoColor=white)](https://pisentry.dev/)
+[![pisentry](https://img.shields.io/badge/pisentry-0E9F6E?style=flat-square&logo=raspberrypi&logoColor=white)](https://pisentry.dev)
 [![Landing Site](https://img.shields.io/badge/Landing%20Site-%236A5ACD?style=flat-square&logo=amazonaws&logoColor=white)](https://cloud.mrcyberleon.org/)
 
 ---
 
 ## Now
 
-- Taking **[pisentry](https://github.com/pisentry/pisentry)** toward 1.0. It moved to its own org and [pisentry.dev](https://pisentry.dev/), and v0.2.0 shipped with signed releases, a versioned event schema, and drop-in rules in `rules.d` that reload without a restart. Curated rule packs are next.
-- Contributing upstream to **[OpenSign](https://github.com/OpenSignLabs/OpenSign/pulls?q=author%3AMrGuato)**, the open source DocuSign alternative (docs and Docker deployment).
+- Taking [pisentry](https://github.com/pisentry/pisentry) toward 1.0 under its own [GitHub org](https://github.com/pisentry) at [pisentry.dev](https://pisentry.dev). [v0.2.1](https://github.com/pisentry/pisentry/releases/tag/v0.2.1) is the current release, and the [v0.2.2 release candidate](https://github.com/pisentry/pisentry/releases/tag/v0.2.2-rc.1) adds signed rule updates (`pisentry update-patterns`, Ed25519-verified), five built-in rule packs that bring it to 80 MITRE-mapped rules, and a performance budget enforced in CI on native arm64. What's next is on the [roadmap](https://pisentry.dev/roadmap.html).
+- Hunting bugs in and contributing to [ServerOS](https://github.com/serveroshq), the open source panel for running your own Linux servers. Three [security advisories](#security-advisories) so far, plus features on the panel side.
+- Contributing upstream to [OpenSign](https://github.com/OpenSignLabs/OpenSign/pulls?q=author%3AMrGuato), the open source DocuSign alternative (docs and Docker deployment).
 - Building WoW addons for 3.3.5a and World of Warcraft: Forever, and contributing to AzerothCore modules in the mod-playerbots ecosystem.
 - Studying for AZ-500, KCNA, and KCSA, and looking at Talos and Omni for the next version of the cluster.
 
 ---
 
-## Live: homelab k3s cluster
+## Homelab k3s cluster with live status
 
 [![Cluster](https://img.shields.io/website?url=https%3A%2F%2Fstatus.deleontech.net&up_message=healthy&up_color=brightgreen&down_message=degraded&down_color=red&label=status.deleontech.net&style=for-the-badge&logo=kubernetes&logoColor=white)](https://status.deleontech.net)
 
-Mixed-architecture k3s cluster on three Raspberry Pi 4s (Debian 13) and a Lenovo ThinkStation (RHEL 10.1). Everything is managed through FluxCD from [`MrGuato/pi-cluster`](https://github.com/MrGuato/pi-cluster) with separate base and staging overlays, so I never really touch the cluster directly. Secrets are encrypted with SOPS and age and committed right into the repo. Cloudflare Tunnel gets traffic in with zero open ports, Longhorn does the block storage, and Velero backs everything up to MinIO on a separate node. Falco watches the container runtime and [pisentry](https://github.com/pisentry/pisentry) runs as a DaemonSet watching the hosts underneath. The dashboard above is pulling from kube-prometheus-stack.
+Mixed-architecture k3s cluster on three Raspberry Pi 4s (Debian 13) and a Lenovo ThinkStation (RHEL 10.1). Everything is managed through FluxCD from [`MrGuato/pi-cluster`](https://github.com/MrGuato/pi-cluster) with separate base and staging overlays, so I never really touch the cluster directly. Secrets are encrypted with SOPS and age and committed to the repo. Cloudflare Tunnel gets traffic in with zero open ports, Longhorn does the block storage, and Velero backs everything up to MinIO on a separate node. Falco watches the container runtime and [pisentry](https://github.com/pisentry/pisentry) runs as a DaemonSet watching the hosts underneath. The status dashboard linked above pulls from kube-prometheus-stack.
 
 ---
 
-## What I work on
+## Areas and tools
 
 A rough map of where I spend my time and the tools I tend to reach for.
 
 | Area | Notes |
 |---|---|
-| Kubernetes | k3s, Helm, FluxCD, Kustomize, Longhorn, Velero, Falco. Currently looking at Talos and Omni. |
+| Kubernetes | k3s, Helm, FluxCD, Kustomize, Longhorn, Velero, Falco. |
 | IaC | Terraform, Ansible, and Packer. I usually build golden images with Packer, spin them up with Terraform, and let Ansible handle the config drift. |
 | CI/CD and supply chain | GitLab CI and GitHub Actions, with Flux for GitOps. Scanning (SAST, SBOM, container, IaC) runs as real gates so things fail fast, and what I ship goes out as signed GHCR images with build provenance, CodeQL, and OpenSSF Scorecard. |
 | Virtualization | vSphere and Proxmox. Hardened base images and automated patching. |
 | Network | FortiGate, Palo Alto, Ubiquiti, Cisco. Zero-open-port ingress with Cloudflare Tunnel wherever I can get away with it. |
 | Identity | Entra ID, Conditional Access, and least-privilege IAM across Azure and AWS. |
-| Detection and response | Sentinel, SentinelOne, Rapid7, Defender XDR, and Tines for SOAR. On the host side I write my own detections, mapped to MITRE ATT&CK. Good telemetry usually makes detection a lot easier. |
+| Detection and response | Sentinel, SentinelOne, Rapid7, Defender XDR, and Tines for SOAR. On the host side I write my own detections, mapped to MITRE ATT&CK. |
 | Compliance | CMMC Level 2 and NIST 800-171 in practice, plus CIS v8, NIST CSF 2.0, and Zero Trust. |
-| Code | Go for security tooling, Bash for anything that runs in a container, Lua for WoW addons, and JavaScript for the dashboards and sites around all of it. |
+| Code | Go for security tooling, Bash for anything that runs in a container, Lua for WoW addons, and JavaScript for the dashboards and sites. |
 
 ---
 
-## Featured: pisentry
+## pisentry, a host security agent for Raspberry Pi and ARM Linux
 
 <p align="center">
   <a href="https://github.com/pisentry/pisentry">
@@ -57,11 +58,11 @@ A rough map of where I spend my time and the tools I tend to reach for.
   </a>
 </p>
 
-**[Repo](https://github.com/pisentry/pisentry) · [Website](https://pisentry.dev/) · [Releases](https://github.com/pisentry/pisentry/releases) · [Container](https://github.com/pisentry/pisentry/pkgs/container/pisentry)**
+**[Repo](https://github.com/pisentry/pisentry) · [Website](https://pisentry.dev) · [Install](https://pisentry.dev/install.html) · [Roadmap](https://pisentry.dev/roadmap.html) · [Releases](https://github.com/pisentry/pisentry/releases) · [Container](https://github.com/pisentry/pisentry/pkgs/container/pisentry) · [Org](https://github.com/pisentry)**
 
-My main open source project. A single static Go binary that watches a small Linux host for the ten attacks that hit it most (SSH brute force, suspicious logins, privilege escalation, persistence, cryptominers, reverse shells, file tampering and more), ranks them, and tells you where to look first. Standard library only, about 12 MB resident, under 1% CPU on a 2 GB Pi. Output goes out as Prometheus metrics, JSON events, a terminal Top 10 report, and push alerts to ntfy, Discord, Slack, or any webhook. You can write your own detections as JSON rules in `rules.d` and they reload without a restart, every attacker-facing parser gets fuzzed, and releases are signed with Sigstore cosign. It runs as a hardened systemd service or a Flux-managed DaemonSet, right next to Falco: Falco covers the container runtime, pisentry covers the host.
+My main open source project. A single static Go binary that watches a small Linux host for the ten attacks that hit it most (SSH brute force, suspicious logins, privilege escalation, persistence, cryptominers, reverse shells, file tampering and more), ranks them, and tells you where to look first. Standard library only: a 7-8 MiB binary using 10-30 MiB of memory and under 1% CPU on a 2 GB Pi. Every detection rule maps to MITRE ATT&CK and has fixtures it must and must not fire on, and you can add your own in `rules.d` with live reload. Every attacker-facing parser gets fuzzed, and releases are signed with Sigstore cosign. v0.2.2 brings the built-in set to 80 rules and adds signed rule bundles between releases. Output goes out as Prometheus metrics, JSON events, a terminal Top 10 report, and push alerts to ntfy, Discord, Slack, or any webhook. It runs as a hardened systemd service or a Flux-managed DaemonSet, next to Falco: Falco covers the container runtime, pisentry covers the host.
 
-![GitHub release](https://img.shields.io/github/v/release/pisentry/pisentry?style=flat-square)
+[![GitHub release](https://img.shields.io/github/v/release/pisentry/pisentry?style=flat-square)](https://github.com/pisentry/pisentry/releases/latest)
 [![ci](https://github.com/pisentry/pisentry/actions/workflows/ci.yml/badge.svg)](https://github.com/pisentry/pisentry/actions/workflows/ci.yml)
 [![codeql](https://github.com/pisentry/pisentry/actions/workflows/codeql.yml/badge.svg)](https://github.com/pisentry/pisentry/actions/workflows/codeql.yml)
 [![OpenSSF Scorecard](https://img.shields.io/ossf-scorecard/github.com/pisentry/pisentry?label=OpenSSF%20Scorecard&style=flat-square)](https://scorecard.dev/viewer/?uri=github.com/pisentry/pisentry)
@@ -71,15 +72,36 @@ My main open source project. A single static Go binary that watches a small Linu
 
 ---
 
+## Security advisories
+
+Vulnerabilities I found and reported through coordinated disclosure. Each was fixed by the maintainers and published as a GitHub Security Advisory with me credited as reporter.
+
+| Advisory | Severity | Project | Finding |
+|---|---|---|---|
+| [GHSA-5jfr-rg33-h8jh](https://github.com/serveroshq/daemon/security/advisories/GHSA-5jfr-rg33-h8jh) | ![High](https://img.shields.io/badge/High-E5534B?style=flat-square) | ServerOS daemon | The backup receiver's SFTP account had no `ChrootDirectory`, so any accepted backup key could read and destroy every other machine's backups on the receiver. |
+| [GHSA-98w2-9rjj-xcx4](https://github.com/serveroshq/panel/security/advisories/GHSA-98w2-9rjj-xcx4) | ![High](https://img.shields.io/badge/High-E5534B?style=flat-square) | ServerOS panel | A passkey planted on an unverified, squatted account survived the password reset the app recommends, giving durable account takeover. |
+| [GHSA-r344-34p8-jfgf](https://github.com/serveroshq/panel/security/advisories/GHSA-r344-34p8-jfgf) | ![Medium](https://img.shields.io/badge/Medium-D29922?style=flat-square) | ServerOS panel | A write-scoped API/MCP credential could deploy an arbitrary repository's Compose file and gain root on a managed host. |
+
+---
+
 ## Projects
 
-### Platform
+### Homelab
 
 #### [pi-cluster](https://github.com/MrGuato/pi-cluster) · [live status](https://status.deleontech.net)
-My homelab cluster, fully declarative. Flux reconciles apps and infrastructure from Git, SOPS-encrypted secrets live in the public repo, and Renovate keeps image tags fresh with automated PRs. Velero does backups out to MinIO on a separate node, and Longhorn handles distributed block storage across the ARM and x86 nodes. It also hosts Forgejo, Docmost, Vikunja, linkding, Headlamp, and my notes site. The live dashboard at the top of this README runs on it.
+The public repo behind the homelab cluster above, fully declarative. Renovate keeps image tags fresh with automated PRs, and the cluster also hosts Forgejo, Docmost, Vikunja, linkding, Headlamp, and my notes site.
 
 #### [gitops-notes](https://github.com/MrGuato/gitops-notes) · [notes.deleontech.net](https://notes.deleontech.net)
-A running journal of GitOps and DevOps experiments, built with Astro and served from the cluster. Writeups and lessons from the homelab, including the failures and not just the happy path.
+A running journal of GitOps and DevOps experiments, built with Astro and served from the cluster. Writeups and lessons from the homelab, failures included.
+
+### Upstream contributions
+
+#### [ServerOS](https://github.com/serveroshq) · [my PRs](https://github.com/serveroshq/panel/pulls?q=author%3AMrGuato)
+An open source, self-hosted panel for running the Linux servers you already own (Laravel panel, Rust daemon). Beyond the [advisories above](#security-advisories), I've shipped features on the panel, with one more in review:
+- [Security posture scoring](https://github.com/serveroshq/panel/pull/115): the engine behind a new Security tab. Nine checks (SSH config, failed sign-ins, automatic updates, databases exposed to the internet, and more) turn the daemon's security report into a score and grade per machine. The page and daily score history are next.
+- [Private network address changes](https://github.com/serveroshq/panel/pull/77): a machine on a private network now shows its new address after DHCP or a network move, instead of keeping the IP it enrolled with.
+- [Removing a saved AI key](https://github.com/serveroshq/panel/pull/100): made it easy to find and remove a saved AI provider key, with clean audit logging for the edge cases.
+- [Passkeys as two-factor](https://github.com/serveroshq/panel/pull/118) (in review): let a passkey unlock the console, files, and databases, not only an authenticator code.
 
 ### Self-hosted game servers
 
@@ -90,7 +112,7 @@ A Valheim dedicated server I host for family and friends, packaged so I can stop
 The companion dashboard for that server, built because the group chat kept asking "who's on?" Server status straight from Steam's query, the in-game day, boss progression, weekly playtime and death leaderboards, a play-time heatmap, and armory-style profiles with a 3D voxel figure wearing each player's real gear. Runs in Docker next to the server.
 
 #### [enshrouded-docker](https://github.com/MrGuato/enshrouded-docker) · [docs](https://mrguato.github.io/enshrouded-docker/) · [image](https://github.com/MrGuato/enshrouded-docker/pkgs/container/enshrouded-docker)
-The Enshrouded sibling of my Valheim server. Enshrouded only ships a Windows dedicated server, so the image runs it under Wine and Xvfb, forces SteamCMD to fetch the Windows build, and patches the game on every start. One `./enshrouded` CLI covers setup, status, logs, updates, backups and restores, settings and Admin/Friend/Guest role passwords come from a single `.env`, and a one-line installer takes a fresh Linux host to a running server. Non-root, nightly Watchtower updates, and every change goes through hadolint, shellcheck, CodeQL, gitleaks and Trivy. Getting Xvfb lock files and SteamCMD to behave in a clean container was more fun than I expected.
+The Enshrouded sibling of my Valheim server. Enshrouded only ships a Windows dedicated server, so the image runs it under Wine and Xvfb, forces SteamCMD to fetch the Windows build, and patches the game on every start. One `./enshrouded` CLI covers setup, status, logs, updates, backups and restores. Settings and Admin/Friend/Guest role passwords come from a single `.env`, and a one-line installer takes a fresh Linux host to a running server. Non-root, nightly Watchtower updates, and every change goes through hadolint, shellcheck, CodeQL, gitleaks and Trivy. Getting Xvfb lock files and SteamCMD to behave in a clean container was more fun than I expected.
 
 ### World of Warcraft
 
@@ -112,7 +134,7 @@ A serverless site on S3, CloudFront, Lambda, API Gateway, and DynamoDB, all prov
 
 ## Stack
 
-#### Platform
+### Platform
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
 ![FluxCD](https://img.shields.io/badge/FluxCD-5468FF?style=for-the-badge&logo=flux&logoColor=white)
@@ -123,13 +145,13 @@ A serverless site on S3, CloudFront, Lambda, API Gateway, and DynamoDB, all prov
 ![RHEL](https://img.shields.io/badge/RHEL-CC0000?style=for-the-badge&logo=redhat&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
 
-#### Infrastructure as Code
+### Infrastructure as Code
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
 ![Packer](https://img.shields.io/badge/Packer-02A8EF?style=for-the-badge&logo=packer&logoColor=white)
 ![CloudFormation](https://img.shields.io/badge/CloudFormation-FF4F8B?style=for-the-badge&logo=amazonaws&logoColor=white)
 
-#### Pipelines and supply chain
+### Pipelines and supply chain
 ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![GHCR](https://img.shields.io/badge/GHCR-181717?style=for-the-badge&logo=github&logoColor=white)
@@ -139,7 +161,7 @@ A serverless site on S3, CloudFront, Lambda, API Gateway, and DynamoDB, all prov
 ![SOPS](https://img.shields.io/badge/SOPS%2Fage-000000?style=for-the-badge)
 ![Renovate](https://img.shields.io/badge/Renovate-1A1F6C?style=for-the-badge&logo=renovatebot&logoColor=white)
 
-#### Cloud and edge
+### Cloud and edge
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
@@ -147,18 +169,18 @@ A serverless site on S3, CloudFront, Lambda, API Gateway, and DynamoDB, all prov
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)
 
-#### Network
+### Network
 ![Fortinet](https://img.shields.io/badge/FortiGate-EE2E24?style=for-the-badge&logo=fortinet&logoColor=white)
 ![Palo Alto](https://img.shields.io/badge/Palo%20Alto-172A6B?style=for-the-badge&logo=paloaltonetworks&logoColor=white)
 ![Ubiquiti](https://img.shields.io/badge/Ubiquiti-0559C9?style=for-the-badge&logo=ubiquiti&logoColor=white)
 ![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
 
-#### Observability
+### Observability
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Loki](https://img.shields.io/badge/Loki-F5A800?style=for-the-badge&logo=grafana&logoColor=white)
 
-#### Security operations
+### Security operations
 ![Sentinel](https://img.shields.io/badge/Sentinel-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![SentinelOne](https://img.shields.io/badge/SentinelOne-5B2E91?style=for-the-badge&logo=sentinelone&logoColor=white)
 ![Rapid7](https://img.shields.io/badge/Rapid7-D02F2F?style=for-the-badge&logo=rapid7&logoColor=white)
@@ -168,14 +190,14 @@ A serverless site on S3, CloudFront, Lambda, API Gateway, and DynamoDB, all prov
 ![Tines](https://img.shields.io/badge/Tines-5A67D8?style=for-the-badge)
 ![Nessus](https://img.shields.io/badge/Nessus-00B3E3?style=for-the-badge&logo=tenable&logoColor=white)
 
-#### Languages
+### Languages
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-#### Compliance
+### Compliance
 ![CMMC L2](https://img.shields.io/badge/CMMC%20L2-006400?style=for-the-badge)
 ![NIST 800-171](https://img.shields.io/badge/NIST%20800--171-4CAF50?style=for-the-badge)
 ![NIST CSF 2.0](https://img.shields.io/badge/NIST%20CSF%202.0-4CAF50?style=for-the-badge)
@@ -211,7 +233,7 @@ A serverless site on S3, CloudFront, Lambda, API Gateway, and DynamoDB, all prov
 
 <img src="https://www.besthealthdegrees.com/wp-content/uploads/2018/04/western-governors-university-1024x1024.png" alt="WGU Graduate, Network Engineering and Cybersecurity" width="50" height="50">
 
-## Working Towards
+## Certifications in progress
 
 <table><tr>
 <td><img src="https://images.credly.com/size/680x680/images/1ad16b6f-2c71-4a2e-ae74-ec69c4766039/azure-security-engineer-associate600x600.png" alt="Microsoft Security Engineer" width="50" height="50"></td>
@@ -225,3 +247,11 @@ A serverless site on S3, CloudFront, Lambda, API Gateway, and DynamoDB, all prov
 [![MrGuato's GitHub stats - Light](https://github-readme-stats.vercel.app/api?username=mrguato&show_icons=true&theme=light&bg_color=f6f8fa&icon_color=1b1f23&title_color=0366d6&text_color=24292e#gh-light-mode-only)](https://github.com/MrGuato)
 [![Top Langs - Dark](https://github-readme-stats.vercel.app/api/top-langs/?username=mrguato&layout=compact&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9#gh-dark-mode-only)](https://github.com/MrGuato)
 [![Top Langs - Light](https://github-readme-stats.vercel.app/api/top-langs/?username=mrguato&layout=compact&theme=light&bg_color=f6f8fa&title_color=0366d6&text_color=24292e#gh-light-mode-only)](https://github.com/MrGuato)
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MrGuato/MrGuato/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MrGuato/MrGuato/output/github-snake.svg">
+    <img alt="A snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/MrGuato/MrGuato/output/github-snake.svg" width="100%">
+  </picture>
+</p>
